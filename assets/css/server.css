@@ -1,0 +1,179 @@
+* {
+				
+    margin: 0;
+    padding: 0;
+}
+html, body {
+
+    height: 100%;
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: yellow;
+}
+
+#upper {
+
+    width: 100%;
+    height: 80%;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    /* background: -o-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./img/background.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./img/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./img/background.jpg);
+    background-size: cover; */
+}
+
+#lower {
+
+    width: 100%;
+    height: calc(20% - 1px);
+}		
+
+p {
+
+    font-size: 2em;
+}
+
+#globalScore {
+
+    position: relative;
+    font-size: 4.5em;
+    text-align: center;
+    top: 10%;
+}
+
+#t1, #t2 {
+
+    position: absolute;
+    top: 0;
+    padding-top: 2%;
+    font-size: 1.5em;
+    margin-top: 10%;
+}
+
+table {
+
+    position: relative;
+    font-size: 2em;
+    margin: 0 auto;
+    overflow: hidden;
+    vertical-align: middle;
+    top: 17%;
+}
+
+.centertd {
+
+    width: 532px;
+}
+
+#img-wrapper {
+
+    height: 120px;
+    width: 592px;
+    margin: 0 auto;
+    margin-top: 130px;	
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img-wrapper > div {
+    width: 120px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#img-wrapper img {
+
+    background-size: cover;
+    max-width: 120px;
+    max-height: 120px;
+    display: none;
+}
+
+#table-wrapper {
+
+    position: absolute;
+    top: 25%;
+    left:50%;
+    margin-left:-349px; 
+}
+
+#table1 {
+
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#table2 {
+
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.midcell {
+
+    width: 256px;
+    padding-right: 15px;
+}
+
+#score-wrapper {
+
+    position: absolute;
+    top: 57%;
+    left:50%;
+    margin-left:-16px; 
+
+}
+/* #score-wrapper > p {
+
+    display: inline-block;
+    font-size: 3.5em;
+} */
+#scoreOne {
+
+    position: absolute;
+    bottom: 35%;
+    left: 37%;
+    font-size: 3.5em;
+}
+
+#scoreTwo {
+
+    position: absolute;
+    bottom: 35%;
+    right: 37%;
+    font-size: 3.5em;
+}
+
+#name-wrapper {
+
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#name-wrapper > p {
+
+    display: inline-block;
+}
+
+#nameOne {
+
+    margin-right: 160px;
+}
+
+#nameTwo{
+
+    margin-left: 160px;
+}
+
+#btn-wrapper {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
