@@ -12,10 +12,6 @@ app.get('/client2', function(req, res){
   res.sendFile(__dirname + '/views/client2.html');
 });
 
-app.get('/', function(req, res) {
-	res.sendFile(__dirname + '/views/lasalle.html');
-});
-
 app.get('/server', function(req, res){
   res.sendFile(__dirname + '/views/server.html');
 });
