@@ -1,6 +1,7 @@
 window.onload = function() {
 
     switchAnswers();
+    console.log(QA[0][1])
 }
 
 const QA = [
